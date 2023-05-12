@@ -3,18 +3,86 @@
 	<head>
 		<meta charset="UTF-8">
 		<!-- TODO: 또 무엇이 필요할까요? -->
+		<!-- [ADD] HTML 기본 메타데이터 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> 네이버 모바일 </title>
+
 	</head>
 	<body>
 		<header>
-			<!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
-		</header>
+			<!-- header: 헤더 영역은 소개나 탐색을 돕는 것의 그룹 -->
 
+			<!-- 퀵메뉴모음과, QR체크인, 네이버페이, 문서함 버튼 / 네이버 로고 + 검색창 , -->
+			<nav>
+				<i class="quickmenu"> bar_Icon</i> 
+				<span> &nbsp; &nbsp; QR체크인 &nbsp; N_pay &nbsp;  Document_icon </span> </nav> 
+
+			<a href="#"><h1>NAVER</h1></a> 
+
+			<!-- method: 데이터를 서버로 보내는 방법 -->
+			<form action="데이터가 전송될 서버 URL" method="post">
+				<input type="text" name="search" placeholder="검색어를 입력해 주세요.">
+				<button><i class="voiceSearch"> voiceSearch_icon</i></button>
+				<button><i class="naver-lens"> naver-lens_icon</i></button>
+				<button><i class="location"> location</i></button>
+			</form>
+
+			<div class="favorites-btn">
+				
+				<div>
+					<button><img class="news" src="#"> 뉴스</img></button>
+				</div>
+				<div>
+					<button><img class="finance" src="#">경제지표판</img></button>
+				</div>
+				<div>
+					<button><img class="entertain" src="#">연예판</img></button>
+				</div>
+				<div> 
+					<button><img class="trend" src="#"> 트렌드판</img></button>
+				</div>
+				<div>
+					<button><img class="mail" src="#">메일</img></button>
+				</div>
+				<div>
+					<button><img class="cafe"  src="#"> 카페</img></button>
+				</div>
+				<div>
+					<button><img class="blog" src="#"> 블로그</img></button>
+				</div>
+
+			</div>
+			
+		</header>
+		
 		<section class="main">
 			<!-- TODO: main은 어떤 식으로 나눌 수 있을까요? -->
+			 <div>기온 ,NOW DIV </div>
+      <!--기온과 NOW.섹션-->
+      <div>현재위치</div>
+      <!--현재위치 + 날씨 섹션-->
+      <div>코로나-19</div>
+      <!--코로나19 관련 섹션-->
+      <div>102주년 대한민국 임시정부 수립기념 배너 </div>
+      <!--제 102주년 대한민국 수립일 섹션-->
+      <div>네이버 앱</div>
+      <!--네이버 앱 섹션-->
+      <div>네이버 웹툰</div>
+      <!--네이버 웹툰 섹션-->
+      <article>인기주제판</article>
+      <!--인기주제판 섹션-->
+      <div>알림니다</div>
+      <!--알림 섹션-->
+			
 		</section>
 
 		<footer>
 			<!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+				<a href="#">로그인</a> <a href="#">전체 서비스</a> <a href="#">PC버전</a> <br>
+				<a href="#">이용약관</a> <a href="#">개인정보처리방침</a> <a href="#">고객센터</a>
+
+				<h3>NAVER</h3>
 		</footer>
 	</body>
 </html>
